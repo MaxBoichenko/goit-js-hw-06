@@ -6,6 +6,7 @@ const onInputBlur = event => {
     event.target.classList.add('valid');
   } else {
     event.target.classList.add('invalid');
+    event.target.classList.remove('valid');
   }
 };
 
